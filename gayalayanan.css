@@ -224,7 +224,12 @@
         padding: 20px; /* Memberikan jarak di dalam item layanan */
     }
 
-  
+    .service-image img {
+        width: 35px; /* Ukuran gambar sedikit lebih besar pada perangkat kecil */
+        height: 35px;
+        margin-top: -3px;
+        margin-right: 325px;
+    }
 }
 
 /* Garis pemisah antar layanan */

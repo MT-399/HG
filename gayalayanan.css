@@ -224,11 +224,12 @@
         padding: 20px; /* Memberikan jarak di dalam item layanan */
     }
 
-    .service-image img {
-        width: 35px; /* Ukuran gambar sedikit lebih besar pada perangkat kecil */
-        height: 35px;
-        margin-top: -3px;
-        margin-right: 325px;
+    /* Ukuran gambar pada layanan */
+    .service-item img {
+        width: 50px;  /* Sesuaikan ukuran gambar di mobile */
+        height: 50px; /* Sesuaikan tinggi gambar */
+        object-fit: cover; /* Pastikan gambar tetap proporsional */
+        margin-top: 15px; /* Memberikan jarak atas */
     }
 }
 
